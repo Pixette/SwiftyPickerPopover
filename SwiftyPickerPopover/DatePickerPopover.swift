@@ -36,7 +36,7 @@ public class DatePickerPopover: AbstractPopover {
     private var _preferredDatePickerStyle_: Any? = nil
     
     @available(iOS 13.4, *)
-    private var preferredDatePickerStyle_: UIDatePickerStyle {
+    var preferredDatePickerStyle_: UIDatePickerStyle {
       get {
           if _preferredDatePickerStyle_ == nil {
               _preferredDatePickerStyle_ = UIDatePickerStyle.automatic
